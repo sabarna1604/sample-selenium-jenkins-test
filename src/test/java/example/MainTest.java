@@ -1,6 +1,7 @@
 package example;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -26,8 +27,8 @@ public class MainTest {
   
   @BeforeTest  
   public void beforeTest() {    
-     
-    driver = new FirefoxDriver();    
+	  System.setProperty("webdriver.chrome.driver", "/home/kaushik/");
+    driver = new ChromeDriver();    
   }      
   @AfterTest  
   public void afterTest() {  

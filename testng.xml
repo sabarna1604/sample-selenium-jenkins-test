@@ -6,7 +6,7 @@
        <testng classpathref="common.class.path">  
            <parameter name="ip" value="127.0.0.1" /> 
            <parameter name="port" value="7055" />
-		   <parameter name="browser" value="firefox" />
+		   <parameter name="browser" value="chrome" />
 		   <parameter name="website" value="http://www.google.com" />
    <classes>
       <class name="example.MainTest"/>

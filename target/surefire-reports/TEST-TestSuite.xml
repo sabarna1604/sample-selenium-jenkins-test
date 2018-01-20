@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="5.657" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.341" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5522116237623990376.tmp"/>
+    <property name="classworlds.conf" value="E:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8160552493750246615.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\opencv\build\x64\vc10\bin;C:\opencv\build\common\tbb\intel64\vc10\;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files\TortoiseSVN\bin;C:\cygwin\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;E:\vbtperk\apache-maven-3.2.2\bin;C:\cygwin\bin;E:\vbtperk\Scala\scala-2.10.4\bin;C:\Users\admatic\Desktop\opengeo\jetty\jre\bin;C:\Users\admatic\Desktop\opengeo\bin;C:\Users\admatic\Desktop\opengeo\sdk\bin;C:\Users\admatic\Desktop\opengeo\pgsql\bin;C:\Program Files\Oracle;;C:\Program Files\AngelInstructor OnScreen Edition/lib/libs;C:\Program Files\AngelInstructor OnScreen Edition/lib/libs;C:\Program Files\PuTTY\;C:\Users\admatic\SikuliX\libs;C:\Users\admatic\Desktop\libs;E:\nnnn\BDT\july 17\Jars\libs;E:\from d\JARS\libs;C:\Program Files\AngelInstructor OnScreen Edition\lib\libs;E:\from d\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,5 +60,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="f" classname="example.MainTest" time="5.657"/>
+  <testcase name="beforeTest" classname="example.MainTest" time="0.341">
+    <failure message="The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:105)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+	at example.MainTest.beforeTest(MainTest.java:31)
+]]></failure>
+  </testcase>
+  <testcase name="f" classname="example.MainTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="example.MainTest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

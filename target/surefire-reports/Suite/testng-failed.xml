@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="website" value="http://www.google.com"/>
+  <parameter name="port" value="7055"/>
+  <parameter name="ip" value="127.0.0.1"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)" parallel="none" preserve-order="false">
+    <parameter name="website" value="http://www.google.com"/>
+    <parameter name="port" value="7055"/>
+    <parameter name="ip" value="127.0.0.1"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="example.MainTest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
