@@ -4,8 +4,8 @@
   <test name="Test">
           <target name="run-testng">
        <testng classpathref="common.class.path">  
-           <parameter name="ip" value="localhost" /> 
-           <parameter name="port" value="4444" />
+           <parameter name="ip" value="127.0.0.1" /> 
+           <parameter name="port" value="7055" />
 		   <parameter name="browser" value="firefox" />
 		   <parameter name="website" value="http://www.google.com" />
    <classes>
