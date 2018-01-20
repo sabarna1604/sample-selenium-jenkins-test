@@ -27,7 +27,7 @@ public class MainTest {
   
   @BeforeTest  
   public void beforeTest() {    
-	  System.setProperty("webdriver.chrome.driver", "/home/kaushik/");
+	  System.setProperty("webdriver.chrome.driver", "/home/kaushik/chromedriver");
     driver = new ChromeDriver();    
   }      
   @AfterTest  
