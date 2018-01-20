@@ -13,7 +13,15 @@ public class MainTest {
   public void f() {
 	  driver.get("http://google.in");
 	  String title = driver.getTitle();      
-	  Assert.assertTrue(title.equals("Googl"));   
+	  Assert.assertTrue(title.equals("Google")); 
+	  try {
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	  driver.get("http://facebook.com");
+	  Assert.assertTrue(driver.getTitle().contains("Facebook"));
   }
   
   @BeforeTest  
