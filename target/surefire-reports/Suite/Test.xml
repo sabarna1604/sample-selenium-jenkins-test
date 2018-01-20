@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="admatic-PC" name="example.MainTest" tests="1" failures="0" timestamp="20 Jan 2018 13:38:02 GMT" time="5.175" errors="0">
-  <testcase name="f" time="1.61" classname="example.MainTest"/>
+<testsuite hostname="admatic-PC" name="example.MainTest" tests="1" failures="0" timestamp="20 Jan 2018 14:05:36 GMT" time="11.128" errors="0">
+  <testcase name="f" time="7.726" classname="example.MainTest"/>
 </testsuite>
