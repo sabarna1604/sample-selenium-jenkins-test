@@ -13,7 +13,7 @@ public class MainTest {
   public void f() {
 	  driver.get("http://google.in");
 	  String title = driver.getTitle();      
-	  Assert.assertTrue(title.equals("Google"));   
+	  Assert.assertTrue(title.equals("Googl"));   
   }
   
   @BeforeTest  
