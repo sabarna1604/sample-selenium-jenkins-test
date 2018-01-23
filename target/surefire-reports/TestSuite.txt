@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.392 sec <<< FAILURE! - in TestSuite
-beforeTest(example.MainTest)  Time elapsed: 0.341 sec  <<< FAILURE!
-java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:105)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:75)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
-	at example.MainTest.beforeTest(MainTest.java:31)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.73 sec - in TestSuite
